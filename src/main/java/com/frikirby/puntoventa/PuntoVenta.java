@@ -1,8 +1,12 @@
 package com.frikirby.puntoventa;
 
+import com.frikirby.puntoventa.persistencia.ControladoraPersistencia;
+
 public class PuntoVenta {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        ControladoraPersistencia controlPersis = new ControladoraPersistencia();
+        
     }
 }
